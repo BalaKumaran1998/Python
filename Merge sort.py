@@ -1,0 +1,10 @@
+list=[3,2,5,4,1,7]
+n=len(list)
+l=(n//2)
+list1=list[0:l]
+list2=list[l:n]
+list1.sort()
+list2.sort()
+tlist=list1+list2
+tlist.sort()
+print(tlist)
